@@ -93,11 +93,11 @@
 }
 
 .correct {
-    background-color: greenyellow;
+    background-color: lightgreen;
 }
 
 .wrong {
-    background-color: darkred;
+    background-color: lightcoral;
 }
 
 .submit {
