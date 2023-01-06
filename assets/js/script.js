@@ -2,6 +2,8 @@ const form = document.querySelector('.quiz-form');
 const correctAnswer = ["A", "A", "A", "A", "A"]
 const result = document.querySelector('.result');
 
+
+
 form.addEventListener('submit', event => {
     event.preventDefault();
     const userAnswer = [form.q1.value, form.q2.value, form.q3.value, form.q4.value, form.q5.value];
@@ -22,6 +24,7 @@ form.addEventListener('submit', event => {
     result.querySelector('p').textContent=`You scored ${score} /5! `;
     
 });
+
 
 
 /*
