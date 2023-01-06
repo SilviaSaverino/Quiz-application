@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Kaushan+Script&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+/*creating a variable to be called and used - see .result*/
+:root {
+    --box-shadow: rgb(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.quiz {
+    background-color: blue;
+    padding: 15px;
+}
+
+.heading {
+    margin: 10px auto 40px auto;
+}
+
+.heading .title {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+.heading .subtitle {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.result {
+    text-align: center;
+    min-width: 250px;
+    max-width: 400px;
+    margin: 20px auto;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: white;
+    box-shadow: var(--box-shadow);
+}
+
+.result p:first-child {
+    padding: 10px 20px;
+}
+
+.reload button {
+    background-color: rgb(210, 36, 65);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 0px 0px 5px 5px;
+    width: 100%;
+    border: 0px;
+}
+
+.reload button:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+.quiz-form {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.question {
+    background-color: pink;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 20px 0;
+    box-shadow: var(--box-shadow);
+}
+
+/* > * will select all of its childs */
+.question > * {
+    font-size: 18px;
+}
+
+.option {
+    margin-left: 10px;
+}
+
+.submit {
+    text-align: center;
+}
+
+.submit input{
+    background-color: rgb(2, 154, 2);
+    color: white;
+    padding: 10px 25px;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: var(--box-shadow);
+}
+
+.submit input:hover {
+    background-color: rgb(15, 210, 15);
+}
