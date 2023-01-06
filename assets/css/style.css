@@ -52,6 +52,10 @@
     padding: 10px 20px;
 }
 
+.hide {
+    display: none;
+}
+
 .reload button {
     background-color: rgb(210, 36, 65);
     color: white;
