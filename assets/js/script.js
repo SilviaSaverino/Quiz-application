@@ -1,13 +1,13 @@
 const form = document.querySelector('.quiz-form');
-const correctAnswer = ["A", "A", "A", "A", "A"]
+const correctAnswer = ["A", "B", "A", "C", "D"]
 const result = document.querySelector('.result');
 const questions = document.querySelectorAll('.question');
 
 
 form.addEventListener('submit', event => {
     event.preventDefault();
+
     const userAnswer = [form.q1.value, form.q2.value, form.q3.value, form.q4.value, form.q5.value];
-    
     let score = 0;
 
     userAnswer.forEach((answer, index) => {
