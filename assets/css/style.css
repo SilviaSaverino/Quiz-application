@@ -92,6 +92,14 @@
     margin-left: 10px;
 }
 
+.correct {
+    background-color: greenyellow;
+}
+
+.wrong {
+    background-color: darkred;
+}
+
 .submit {
     text-align: center;
 }
